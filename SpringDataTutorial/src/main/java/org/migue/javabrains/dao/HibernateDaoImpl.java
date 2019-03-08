@@ -1,7 +1,7 @@
 /**
  * 
  */
-package main.java.org.migue.javabrains.dao;
+package org.migue.javabrains.dao;
 
 import org.hibernate.Query;
 import org.hibernate.SessionFactory;

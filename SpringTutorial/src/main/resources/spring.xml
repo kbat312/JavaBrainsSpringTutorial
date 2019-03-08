@@ -5,12 +5,14 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" >
 
+
+ <!-- Inhertiance in beans -->
 	<bean id="parentTriangle" class="org.migue.learning.spring.Triangle" name="triangle-name"    >
 		<property name="pointA">
 			<ref bean="pointA"/>				
 		</property>
-	
 	</bean>
+	
  	
 	<bean id ="triangle1" class="org.migue.learning.spring.Triangle" parent="parentTriangle" >
 		<property name="pointB">		
@@ -45,7 +47,7 @@
  		<property name="y" value="10" />
  	</bean>
  
- 	<!-- <bean class="org.migue.learning.spring.DisplayNameBeanPostProcessor" /> -->
+ <bean class="org.migue.learning.spring.DisplayNameBeanPostProcessor" />
  	 <!-- <bean class="org.migue.learning.spring.MyBeanFactoryPostProcessor" />-->
  	 <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
  	 	<property name="locations" value="pointsconfig.properties"></property>

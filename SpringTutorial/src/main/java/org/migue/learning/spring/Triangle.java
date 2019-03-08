@@ -3,6 +3,8 @@
  */
 package org.migue.learning.spring;
 
+import java.util.List;
+
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.context.ApplicationContext;
@@ -17,14 +19,15 @@ public class Triangle implements ApplicationContextAware, BeanNameAware{
 	private Point pointA;
 	private Point pointB;
 	private Point pointC;
+	private List<Point> pointList;
 
 	@SuppressWarnings("unused")
     private ApplicationContext appContext;
 
 	public void draw() {
-		System.out.println("Point A = " + "(" + pointA.getX() + "," + pointA.getY() + ")");
-		System.out.println("Point B = " + "(" + pointB.getX() + "," + pointB.getY() + ")");
-		System.out.println("Point C = " + "(" + pointC.getX() + "," + pointC.getY() + ")");
+		System.out.println("Point A = " + "(" + this.pointA.getX() + "," + this.pointA.getY() + ")");
+		System.out.println("Point B = " + "(" + this.pointB.getX() + "," + this.pointB.getY() + ")");
+		System.out.println("Point C = " + "(" + this.pointC.getX() + "," + this.pointC.getY() + ")");
 	}
 
 
@@ -76,7 +79,19 @@ public class Triangle implements ApplicationContextAware, BeanNameAware{
 	}
 
 
-	public void setApplicationContext(ApplicationContext arg0)
+	public List<Point> getPointList()
+    {
+        return pointList;
+    }
+
+
+    public void setPointList(List<Point> pointList)
+    {
+        this.pointList = pointList;
+    }
+
+
+    public void setApplicationContext(ApplicationContext arg0)
 			throws BeansException {
 			this.appContext  = arg0;
 			System.out.println("Application context is: " + arg0);
