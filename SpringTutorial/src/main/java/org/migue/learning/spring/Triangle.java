@@ -3,13 +3,8 @@
  */
 package org.migue.learning.spring;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanNameAware;
-import org.springframework.beans.factory.DisposableBean;
-import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
@@ -23,7 +18,8 @@ public class Triangle implements ApplicationContextAware, BeanNameAware{
 	private Point pointB;
 	private Point pointC;
 
-	private ApplicationContext appContext;
+	@SuppressWarnings("unused")
+    private ApplicationContext appContext;
 
 	public void draw() {
 		System.out.println("Point A = " + "(" + pointA.getX() + "," + pointA.getY() + ")");
