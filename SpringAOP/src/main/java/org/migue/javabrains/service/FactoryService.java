@@ -1,10 +1,10 @@
 /**
  * 
  */
-package org.migue.javabrains.service;
+package main.java.org.migue.javabrains.service;
 
-import org.migue.javabrains.model.Circle;
-import org.migue.javabrains.model.Triangle;
+import main.java.org.migue.javabrains.model.Circle;
+import main.java.org.migue.javabrains.model.Triangle;
 
 /**
  * @author migue

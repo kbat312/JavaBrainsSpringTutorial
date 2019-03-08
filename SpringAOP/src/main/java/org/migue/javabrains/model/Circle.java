@@ -1,11 +1,12 @@
 /**
  * 
  */
-package org.migue.javabrains.model;
+package main.java.org.migue.javabrains.model;
 
 import javax.management.RuntimeErrorException;
 
-import org.migue.javabrains.aspect.Loggable;
+import main.java.org.migue.javabrains.aspect.Loggable;
+
 
 /**
  * @author migue

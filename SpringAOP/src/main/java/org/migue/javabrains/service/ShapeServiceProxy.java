@@ -1,10 +1,10 @@
 /**
  * 
  */
-package org.migue.javabrains.service;
+package main.java.org.migue.javabrains.service;
 
-import org.migue.javabrains.aspect.MyOwnAspect;
-import org.migue.javabrains.model.Circle;
+import main.java.org.migue.javabrains.aspect.MyOwnAspect;
+import main.java.org.migue.javabrains.model.Circle;
 
 /**
  * @author migue

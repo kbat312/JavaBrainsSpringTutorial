@@ -1,4 +1,4 @@
-package org.migue.javabrains.aspect;
+package main.java.org.migue.javabrains.aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;

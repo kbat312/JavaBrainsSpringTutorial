@@ -1,12 +1,14 @@
 /**
  * 
  */
-package org.migue.javabrains;
+package main.java.org.migue.javabrains;
 
-import org.migue.javabrains.service.FactoryService;
-import org.migue.javabrains.service.ShapeService;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import main.java.org.migue.javabrains.service.FactoryService;
+import main.java.org.migue.javabrains.service.ShapeService;
 
 /**
  * @author migue

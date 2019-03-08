@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.migue.javabrains.aspect;
+package main.java.org.migue.javabrains.aspect;
 
 /**
  * @author migue

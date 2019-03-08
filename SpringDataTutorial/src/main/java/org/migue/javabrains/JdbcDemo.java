@@ -1,14 +1,16 @@
 /**
  * 
  */
-package org.migue.javabrains;
+package main.java.org.migue.javabrains;
 
-import org.migue.javabrains.dao.HibernateDaoImpl;
-import org.migue.javabrains.dao.JdbcDaoImpl;
-import org.migue.javabrains.dao.SimpleJdbcDaoImpl;
-import org.migue.javabrains.model.Circle;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import main.java.org.migue.javabrains.dao.HibernateDaoImpl;
+import main.java.org.migue.javabrains.dao.JdbcDaoImpl;
+import main.java.org.migue.javabrains.dao.SimpleJdbcDaoImpl;
+import main.java.org.migue.javabrains.model.Circle;
 
 /**
  * @author migue

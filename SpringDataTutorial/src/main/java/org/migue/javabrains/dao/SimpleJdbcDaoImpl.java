@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.migue.javabrains.dao;
+package main.java.org.migue.javabrains.dao;
 
 import org.springframework.jdbc.core.simple.SimpleJdbcDaoSupport;
 

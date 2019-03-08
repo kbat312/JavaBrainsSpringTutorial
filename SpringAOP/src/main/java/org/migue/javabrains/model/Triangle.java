@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.migue.javabrains.model;
+package main.java.org.migue.javabrains.model;
 
 /**
  * @author migue
