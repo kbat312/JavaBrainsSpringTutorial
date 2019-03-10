@@ -7,7 +7,7 @@ import main.java.org.migue.javabrains.aspect.MyOwnAspect;
 import main.java.org.migue.javabrains.model.Circle;
 
 /**
- * @author migue
+ * @author karan
  * this is a brief demonstration on how we can implement a proxy to make our own implementation of aspects work
  * (see "MyOwnAspect" class and "FactoryService" class)...
  */

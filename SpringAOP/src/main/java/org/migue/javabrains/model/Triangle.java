@@ -4,7 +4,7 @@
 package main.java.org.migue.javabrains.model;
 
 /**
- * @author migue
+ * @author karan
  *
  */
 public class Triangle {

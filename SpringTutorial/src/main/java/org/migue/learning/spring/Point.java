@@ -4,7 +4,7 @@
 package org.migue.learning.spring;
 
 /**
- * @author migue
+ * @author karan
  *
  */
 public class Point {

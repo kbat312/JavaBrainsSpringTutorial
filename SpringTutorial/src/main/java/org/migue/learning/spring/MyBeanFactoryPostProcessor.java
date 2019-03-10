@@ -8,7 +8,7 @@ import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 
 /**
- * @author migue
+ * @author karan
  *
  */
 public class MyBeanFactoryPostProcessor implements BeanFactoryPostProcessor{

@@ -4,7 +4,7 @@
 package main.java.org.migue.javabrains.aspect;
 
 /**
- * @author migue
+ * @author karan
  *
  */
 public @interface Loggable {

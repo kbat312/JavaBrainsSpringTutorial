@@ -4,7 +4,7 @@
 package main.java.org.migue.javabrains.aspect;
 
 /**
- * @author migue
+ * @author karan
  * this is a primitive own implementation of an aspect...
  */
 public class MyOwnAspect {

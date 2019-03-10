@@ -7,7 +7,7 @@ import main.java.org.migue.javabrains.model.Circle;
 import main.java.org.migue.javabrains.model.Triangle;
 
 /**
- * @author migue
+ * @author karan
  *
  */
 public class ShapeService {

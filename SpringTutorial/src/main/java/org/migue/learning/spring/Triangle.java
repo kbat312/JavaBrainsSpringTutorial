@@ -11,7 +11,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
 /**
- * @author migue
+ * @author karan
  *
  */
 public class Triangle implements ApplicationContextAware, BeanNameAware, Shape{

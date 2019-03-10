@@ -6,7 +6,7 @@ package org.migue.javabrains.dao;
 import org.springframework.jdbc.core.simple.SimpleJdbcDaoSupport;
 
 /**
- * @author migue
+ * @author karan
  * this class shows us how to extend the built-in JDBC DAO's 
  * of Spring framework to create our own DAO's in a more
  * optimized way....

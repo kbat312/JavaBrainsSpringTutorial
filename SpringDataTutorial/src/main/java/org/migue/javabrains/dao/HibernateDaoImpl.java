@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 /**
- * @author migue
+ * @author karan
  * this is an example of how we can integrate Hibernate 
  * with Spring...
  * PS: view "sessionFactory" bean in "spring.xml"
