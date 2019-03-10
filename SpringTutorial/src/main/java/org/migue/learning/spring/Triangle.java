@@ -14,7 +14,7 @@ import org.springframework.context.ApplicationContextAware;
  * @author migue
  *
  */
-public class Triangle implements ApplicationContextAware, BeanNameAware{
+public class Triangle implements ApplicationContextAware, BeanNameAware, Shape{
 
 	private Point pointA;
 	private Point pointB;
@@ -23,7 +23,8 @@ public class Triangle implements ApplicationContextAware, BeanNameAware{
 
 	@SuppressWarnings("unused")
     private ApplicationContext appContext;
-
+	
+	@Override
 	public void draw() {
 		System.out.println("Point A = " + "(" + this.pointA.getX() + "," + this.pointA.getY() + ")");
 		System.out.println("Point B = " + "(" + this.pointB.getX() + "," + this.pointB.getY() + ")");

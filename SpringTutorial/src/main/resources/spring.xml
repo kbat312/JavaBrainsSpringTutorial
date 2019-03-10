@@ -48,7 +48,7 @@
  	</bean>
  
  <bean class="org.migue.learning.spring.DisplayNameBeanPostProcessor" />
- 	 <!-- <bean class="org.migue.learning.spring.MyBeanFactoryPostProcessor" />-->
+ 	 <bean class="org.migue.learning.spring.MyBeanFactoryPostProcessor" />
  	 <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
  	 	<property name="locations" value="pointsconfig.properties"></property>
  	 </bean>
