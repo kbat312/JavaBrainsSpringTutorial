@@ -48,6 +48,6 @@ This source code covers the great Spring tutorial by Koushik (JavaBrains). For o
 	http://www.youtube.com/watch?v=0lqlg5tnDag
 
 
-Contact: migueguillamon@gmail.com
+Contact: kbat312@gmail.com
 
 Video tutorials by Koushik (JavaBrains): http://javabrains.koushik.org/
