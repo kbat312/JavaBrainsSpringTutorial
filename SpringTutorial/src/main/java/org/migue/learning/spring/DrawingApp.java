@@ -23,7 +23,7 @@ public class DrawingApp {
 
 		try {
 			AbstractApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-			// context.registerShutdownHook();
+			context.registerShutdownHook();
 			Shape shape = (Shape) context.getBean("circle");
 			System.out.println("CALL TO DRAW METHOD.....");
 			shape.draw();

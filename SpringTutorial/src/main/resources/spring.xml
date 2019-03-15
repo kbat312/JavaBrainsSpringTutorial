@@ -8,6 +8,7 @@
            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
                
      <context:annotation-config/>
+     <context:component-scan base-package="org.migue"/>
 
 	<!-- Inhertiance in beans -->
 	<!-- <bean id="parentTriangle" class="org.migue.learning.spring.Triangle"
@@ -41,23 +42,23 @@
 	<!-- <bean id="pointB" class="org.migue.learning.spring.Point">
 		<property name="x" value="-10" />
 		<property name="y" value="-10" />
-	</bean>
+	</bean>  
 
-	<bean id="pointC" class="org.migue.learning.spring.Point">
+	<bean id="point" class="org.migue.learning.spring.Point">
 		<property name="x" value="10" />
 		<property name="y" value="10" />
 	</bean> -->
 
-	<bean class="org.migue.learning.spring.DisplayNameBeanPostProcessor" />
-	<bean class="org.migue.learning.spring.MyBeanFactoryPostProcessor" />
+	<!-- <bean class="org.migue.learning.spring.DisplayNameBeanPostProcessor" />
+	<bean class="org.migue.learning.spring.MyBeanFactoryPostProcessor" /> -->
 	<bean
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations" value="pointsconfig.properties"></property>
 	</bean>
 
-	<bean id="circle" class="org.migue.learning.spring.Circle">
+	<!-- <bean id="circle" class="org.migue.learning.spring.Circle">
 
-	</bean>
+	</bean> -->
 	<!-- <bean
 		class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" /> -->
 
